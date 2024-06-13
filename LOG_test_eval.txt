@@ -1,0 +1,961 @@
+2024-05-09 11:10:13,042 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 11:10:13,042 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 11:10:13,042 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 11:10:13,266 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 11:10:41,433 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 11:10:41,433 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 11:10:41,433 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 11:10:43,382 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 11:10:43,385 - test_eval - INFO - Inference [1/1] rape10 - Cloud ...
+2024-05-09 11:13:53,537 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 11:13:53,537 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 11:13:53,538 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 11:13:55,661 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 11:13:55,663 - test_eval - INFO - Inference [1/1] aaaaalas ...
+2024-05-09 11:13:56,645 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\aaaaalas.las
+2024-05-09 11:13:56,646 - test_eval - INFO - Mean IoU of aaaaalas: 0.6451
+2024-05-09 11:13:56,646 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.445 
+class 果荚            , IoU: 0.846 
+
+2024-05-09 11:13:56,647 - test_eval - INFO - eval point avg class IoU: 0.645121
+2024-05-09 11:13:56,648 - test_eval - INFO - eval whole scene point avg class acc: 0.722312
+2024-05-09 11:13:56,648 - test_eval - INFO - eval whole scene point accuracy: 0.862600
+2024-05-09 11:13:56,648 - test_eval - INFO - --------------------------------------
+
+
+2024-05-09 11:19:20,589 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 11:19:20,589 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 11:19:20,590 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 11:19:22,504 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 11:19:22,506 - test_eval - INFO - Inference [1/1] rape10 - Cloud ...
+2024-05-09 11:28:07,256 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 11:28:07,256 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 11:28:07,257 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 11:28:09,431 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 11:28:09,434 - test_eval - INFO - Inference [1/1] rape2_del1 - Cloud ...
+2024-05-09 11:31:30,506 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 11:31:30,506 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 11:31:30,507 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 11:31:32,426 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 11:31:32,435 - test_eval - INFO - Inference [1/4] rape1 ...
+2024-05-09 11:31:33,443 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rape1.las
+2024-05-09 11:31:33,444 - test_eval - INFO - Mean IoU of rape1: 0.6154
+2024-05-09 11:31:33,444 - test_eval - INFO - Inference [2/4] rape2 ...
+2024-05-09 11:31:34,119 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rape2.las
+2024-05-09 11:31:34,120 - test_eval - INFO - Mean IoU of rape2: 0.5886
+2024-05-09 11:31:34,120 - test_eval - INFO - Inference [3/4] rape4 ...
+2024-05-09 11:31:34,724 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rape4.las
+2024-05-09 11:31:34,725 - test_eval - INFO - Mean IoU of rape4: 0.6450
+2024-05-09 11:31:34,725 - test_eval - INFO - Inference [4/4] rape5 ...
+2024-05-09 11:31:35,401 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rape5.las
+2024-05-09 11:31:35,402 - test_eval - INFO - Mean IoU of rape5: 0.6512
+2024-05-09 11:31:35,403 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.401 
+class 果荚            , IoU: 0.850 
+
+2024-05-09 11:31:35,403 - test_eval - INFO - eval point avg class IoU: 0.625327
+2024-05-09 11:31:35,404 - test_eval - INFO - eval whole scene point avg class acc: 0.700308
+2024-05-09 11:31:35,404 - test_eval - INFO - eval whole scene point accuracy: 0.863700
+2024-05-09 11:31:35,404 - test_eval - INFO - --------------------------------------
+
+
+2024-05-09 11:34:13,240 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 11:34:13,240 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 11:34:13,240 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 11:34:15,155 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 11:34:15,158 - test_eval - INFO - Inference [1/1] rapeb - Cloud ...
+2024-05-09 11:34:16,179 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-09 11:34:16,180 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.5745
+2024-05-09 11:34:16,180 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.311 
+class 果荚            , IoU: 0.838 
+
+2024-05-09 11:34:16,181 - test_eval - INFO - eval point avg class IoU: 0.574477
+2024-05-09 11:34:16,181 - test_eval - INFO - eval whole scene point avg class acc: 0.655530
+2024-05-09 11:34:16,181 - test_eval - INFO - eval whole scene point accuracy: 0.848950
+2024-05-09 11:34:16,182 - test_eval - INFO - --------------------------------------
+
+
+2024-05-09 11:34:51,695 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 11:34:51,696 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 11:34:51,696 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 11:34:53,604 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 11:34:53,615 - test_eval - INFO - Inference [1/6] rapeb - Cloud ...
+2024-05-09 11:34:54,628 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-09 11:34:54,629 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.5756
+2024-05-09 11:34:54,630 - test_eval - INFO - Inference [2/6] rapeb_del1 - Cloud ...
+2024-05-09 11:34:55,258 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb_del1 - Cloud.las
+2024-05-09 11:34:55,259 - test_eval - INFO - Mean IoU of rapeb_del1 - Cloud: 0.5648
+2024-05-09 11:34:55,259 - test_eval - INFO - Inference [3/6] rapeb_del2 - Cloud ...
+2024-05-09 11:35:46,949 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 11:35:46,950 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 11:35:46,950 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 11:35:48,872 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 11:35:48,878 - test_eval - INFO - Inference [1/3] rapeb - Cloud ...
+2024-05-09 11:35:49,746 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-09 11:35:49,747 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.5763
+2024-05-09 11:35:49,747 - test_eval - INFO - Inference [2/3] rapeb_del1 - Cloud ...
+2024-05-09 11:35:50,362 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb_del1 - Cloud.las
+2024-05-09 11:35:50,363 - test_eval - INFO - Mean IoU of rapeb_del1 - Cloud: 0.5660
+2024-05-09 11:35:50,363 - test_eval - INFO - Inference [3/3] rapeb_del2 - Cloud ...
+2024-05-09 11:37:30,497 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 11:37:30,497 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 11:37:30,498 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 11:37:32,408 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 11:37:32,412 - test_eval - INFO - Inference [1/2] rapeb - Cloud ...
+2024-05-09 11:37:33,264 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-09 11:37:33,265 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.5761
+2024-05-09 11:37:33,265 - test_eval - INFO - Inference [2/2] rapeb_del2 - Cloud ...
+2024-05-09 11:51:22,223 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 11:51:22,223 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 11:51:22,223 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 11:51:24,351 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 11:51:24,353 - test_eval - INFO - Inference [1/1] test_nolabel ...
+2024-05-09 12:13:37,840 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 12:13:37,840 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 12:13:37,841 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 12:13:39,964 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 12:13:39,966 - test_eval - INFO - Inference [1/1] change_shunxu ...
+2024-05-09 12:21:49,163 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 12:21:49,164 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 12:21:49,165 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 12:21:51,070 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 12:21:51,098 - test_eval - INFO - Inference [1/1] change_label ...
+2024-05-09 12:25:59,822 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 12:25:59,822 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 12:25:59,823 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 12:26:01,940 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 12:26:01,971 - test_eval - INFO - Inference [1/1] 111 ...
+2024-05-09 12:45:31,457 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 12:45:31,458 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 12:45:31,458 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 12:45:33,505 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 12:45:33,507 - test_eval - INFO - Inference [1/1] del_4weidu ...
+2024-05-09 12:49:52,245 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 12:49:52,245 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 12:49:52,246 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 12:49:54,100 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 12:49:54,102 - test_eval - INFO - Inference [1/1] 1111111111111111111 ...
+2024-05-09 12:49:54,771 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\1111111111111111111.las
+2024-05-09 12:49:54,772 - test_eval - INFO - Mean IoU of 1111111111111111111: 0.6018
+2024-05-09 12:49:54,772 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.372 
+class 果荚            , IoU: 0.831 
+
+2024-05-09 12:49:54,773 - test_eval - INFO - eval point avg class IoU: 0.601792
+2024-05-09 12:49:54,773 - test_eval - INFO - eval whole scene point avg class acc: 0.686170
+2024-05-09 12:49:54,773 - test_eval - INFO - eval whole scene point accuracy: 0.846600
+2024-05-09 12:49:54,773 - test_eval - INFO - --------------------------------------
+
+
+2024-05-09 12:57:23,217 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 12:57:23,217 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 12:57:23,217 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 12:57:25,262 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 12:57:25,264 - test_eval - INFO - Inference [1/1] 2222222222 ...
+2024-05-09 14:35:18,174 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 14:35:18,174 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 14:35:18,175 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 14:35:20,067 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 14:35:20,077 - test_eval - INFO - Inference [1/3] rapec - Cloud ...
+2024-05-09 14:35:20,939 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-09 14:35:20,940 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6532
+2024-05-09 14:35:20,940 - test_eval - INFO - Inference [2/3] rapec_del1 - Cloud ...
+2024-05-09 14:35:37,161 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 14:35:37,162 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 14:35:37,162 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 14:35:39,050 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 14:35:39,053 - test_eval - INFO - Inference [1/2] rapec - Cloud ...
+2024-05-09 14:35:39,915 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-09 14:35:39,916 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6521
+2024-05-09 14:35:39,916 - test_eval - INFO - Inference [2/2] 渲染拉近测试 ...
+2024-05-09 14:35:53,733 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 14:35:53,734 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 14:35:53,734 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 14:35:55,619 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 14:35:55,621 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-09 14:35:56,489 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-09 14:35:56,489 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6528
+2024-05-09 14:35:56,490 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.453 
+class 果荚            , IoU: 0.852 
+
+2024-05-09 14:35:56,490 - test_eval - INFO - eval point avg class IoU: 0.652780
+2024-05-09 14:35:56,490 - test_eval - INFO - eval whole scene point avg class acc: 0.726707
+2024-05-09 14:35:56,491 - test_eval - INFO - eval whole scene point accuracy: 0.868300
+2024-05-09 14:35:56,491 - test_eval - INFO - --------------------------------------
+
+
+2024-05-09 14:36:12,148 - test_eval - INFO - --- hyper-parameter ---
+2024-05-09 14:36:12,148 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-09 14:36:12,148 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-09 14:36:14,028 - test_eval - INFO - --- Evaluation whole scene
+2024-05-09 14:36:14,030 - test_eval - INFO - Inference [1/1] 渲染拉近测试 ...
+2024-05-11 07:17:44,236 - test_eval - INFO - --- hyper-parameter ---
+2024-05-11 07:17:44,237 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-11 07:17:44,237 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-11 07:17:46,086 - test_eval - INFO - --- Evaluation whole scene
+2024-05-11 07:17:46,091 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-11 07:17:46,803 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-11 07:17:46,804 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6564
+2024-05-11 07:17:46,804 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.459 
+class 果荚            , IoU: 0.853 
+
+2024-05-11 07:17:46,804 - test_eval - INFO - eval point avg class IoU: 0.656356
+2024-05-11 07:17:46,804 - test_eval - INFO - eval whole scene point avg class acc: 0.729612
+2024-05-11 07:17:46,805 - test_eval - INFO - eval whole scene point accuracy: 0.869700
+2024-05-11 07:17:46,805 - test_eval - INFO - --------------------------------------
+
+
+2024-05-11 07:23:06,601 - test_eval - INFO - --- hyper-parameter ---
+2024-05-11 07:23:06,601 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-11 07:23:06,602 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-11 07:23:08,477 - test_eval - INFO - --- Evaluation whole scene
+2024-05-11 07:23:08,479 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-11 07:23:09,213 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-11 07:23:09,213 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.7035
+2024-05-11 07:23:09,213 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.537 
+class 果荚            , IoU: 0.870 
+
+2024-05-11 07:23:09,214 - test_eval - INFO - eval point avg class IoU: 0.703494
+2024-05-11 07:23:09,214 - test_eval - INFO - eval whole scene point avg class acc: 0.769430
+2024-05-11 07:23:09,214 - test_eval - INFO - eval whole scene point accuracy: 0.887250
+2024-05-11 07:23:09,214 - test_eval - INFO - --------------------------------------
+
+
+2024-05-11 07:27:11,441 - test_eval - INFO - --- hyper-parameter ---
+2024-05-11 07:27:11,441 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-11 07:27:11,441 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-11 07:27:13,288 - test_eval - INFO - --- Evaluation whole scene
+2024-05-11 07:27:13,289 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-11 07:27:14,014 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-11 07:27:14,015 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6736
+2024-05-11 07:27:14,015 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.487 
+class 果荚            , IoU: 0.860 
+
+2024-05-11 07:27:14,015 - test_eval - INFO - eval point avg class IoU: 0.673627
+2024-05-11 07:27:14,016 - test_eval - INFO - eval whole scene point avg class acc: 0.743619
+2024-05-11 07:27:14,016 - test_eval - INFO - eval whole scene point accuracy: 0.876450
+2024-05-11 07:27:14,017 - test_eval - INFO - --------------------------------------
+
+
+2024-05-11 07:31:20,225 - test_eval - INFO - --- hyper-parameter ---
+2024-05-11 07:31:20,226 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-11 07:31:20,226 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-11 07:31:22,304 - test_eval - INFO - --- Evaluation whole scene
+2024-05-11 07:31:22,306 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-11 07:31:23,042 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-11 07:31:23,043 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6058
+2024-05-11 07:31:23,043 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.380 
+class 果荚            , IoU: 0.831 
+
+2024-05-11 07:31:23,043 - test_eval - INFO - eval point avg class IoU: 0.605754
+2024-05-11 07:31:23,044 - test_eval - INFO - eval whole scene point avg class acc: 0.690821
+2024-05-11 07:31:23,044 - test_eval - INFO - eval whole scene point accuracy: 0.847150
+2024-05-11 07:31:23,044 - test_eval - INFO - --------------------------------------
+
+
+2024-05-11 07:31:57,682 - test_eval - INFO - --- hyper-parameter ---
+2024-05-11 07:31:57,682 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-11 07:31:57,683 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-11 07:34:37,167 - test_eval - INFO - --- hyper-parameter ---
+2024-05-11 07:34:37,167 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-11 07:34:37,168 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-11 07:34:39,015 - test_eval - INFO - --- Evaluation whole scene
+2024-05-11 07:34:39,017 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-11 07:34:39,852 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-11 07:34:39,852 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.5398
+2024-05-11 07:34:39,853 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.268 
+class 果荚            , IoU: 0.811 
+
+2024-05-11 07:34:39,853 - test_eval - INFO - eval point avg class IoU: 0.539788
+2024-05-11 07:34:39,853 - test_eval - INFO - eval whole scene point avg class acc: 0.634053
+2024-05-11 07:34:39,853 - test_eval - INFO - eval whole scene point accuracy: 0.823650
+2024-05-11 07:34:39,853 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 05:53:39,978 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 05:53:39,978 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 05:53:39,979 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 05:53:41,838 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 05:53:41,843 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 05:53:42,564 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 05:53:42,565 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6037
+2024-05-12 05:53:42,565 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.373 
+class 果荚            , IoU: 0.834 
+
+2024-05-12 05:53:42,565 - test_eval - INFO - eval point avg class IoU: 0.603695
+2024-05-12 05:53:42,565 - test_eval - INFO - eval whole scene point avg class acc: 0.686657
+2024-05-12 05:53:42,566 - test_eval - INFO - eval whole scene point accuracy: 0.849000
+2024-05-12 05:53:42,566 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 05:53:52,432 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 05:53:52,432 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 05:53:52,433 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 05:53:54,285 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 05:53:54,287 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 05:53:54,980 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 05:53:54,981 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6033
+2024-05-12 05:53:54,981 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.373 
+class 果荚            , IoU: 0.834 
+
+2024-05-12 05:53:54,981 - test_eval - INFO - eval point avg class IoU: 0.603315
+2024-05-12 05:53:54,982 - test_eval - INFO - eval whole scene point avg class acc: 0.686346
+2024-05-12 05:53:54,982 - test_eval - INFO - eval whole scene point accuracy: 0.848850
+2024-05-12 05:53:54,982 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 05:54:24,376 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 05:54:24,376 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 05:54:24,376 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 05:54:26,232 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 05:54:26,234 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 05:54:27,000 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 05:54:27,000 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6027
+2024-05-12 05:54:27,000 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.372 
+class 果荚            , IoU: 0.834 
+
+2024-05-12 05:54:27,000 - test_eval - INFO - eval point avg class IoU: 0.602681
+2024-05-12 05:54:27,000 - test_eval - INFO - eval whole scene point avg class acc: 0.685827
+2024-05-12 05:54:27,001 - test_eval - INFO - eval whole scene point accuracy: 0.848600
+2024-05-12 05:54:27,001 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 05:54:30,285 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 05:54:30,285 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 05:54:30,285 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 05:54:31,060 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 05:54:31,062 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 05:54:31,753 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 05:54:31,753 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6046
+2024-05-12 05:54:31,753 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.375 
+class 果荚            , IoU: 0.834 
+
+2024-05-12 05:54:31,753 - test_eval - INFO - eval point avg class IoU: 0.604581
+2024-05-12 05:54:31,753 - test_eval - INFO - eval whole scene point avg class acc: 0.687383
+2024-05-12 05:54:31,753 - test_eval - INFO - eval whole scene point accuracy: 0.849350
+2024-05-12 05:54:31,754 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 05:54:37,016 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 05:54:37,017 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 05:54:37,017 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 05:54:37,798 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 05:54:37,800 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 05:54:38,597 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 05:54:38,598 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6043
+2024-05-12 05:54:38,598 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.374 
+class 果荚            , IoU: 0.834 
+
+2024-05-12 05:54:38,599 - test_eval - INFO - eval point avg class IoU: 0.604328
+2024-05-12 05:54:38,599 - test_eval - INFO - eval whole scene point avg class acc: 0.687176
+2024-05-12 05:54:38,599 - test_eval - INFO - eval whole scene point accuracy: 0.849250
+2024-05-12 05:54:38,600 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 05:54:41,571 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 05:54:41,571 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 05:54:41,571 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 05:54:42,361 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 05:54:42,363 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 05:54:43,096 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 05:54:43,097 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6039
+2024-05-12 05:54:43,097 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.374 
+class 果荚            , IoU: 0.834 
+
+2024-05-12 05:54:43,097 - test_eval - INFO - eval point avg class IoU: 0.603948
+2024-05-12 05:54:43,097 - test_eval - INFO - eval whole scene point avg class acc: 0.686864
+2024-05-12 05:54:43,098 - test_eval - INFO - eval whole scene point accuracy: 0.849100
+2024-05-12 05:54:43,098 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 05:58:25,277 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 05:58:25,277 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 05:58:25,277 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 05:58:27,300 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 05:58:27,302 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 05:58:28,024 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 05:58:28,025 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6129
+2024-05-12 05:58:28,025 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.388 
+class 果荚            , IoU: 0.837 
+
+2024-05-12 05:58:28,025 - test_eval - INFO - eval point avg class IoU: 0.612948
+2024-05-12 05:58:28,025 - test_eval - INFO - eval whole scene point avg class acc: 0.694231
+2024-05-12 05:58:28,025 - test_eval - INFO - eval whole scene point accuracy: 0.852650
+2024-05-12 05:58:28,025 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 05:59:32,483 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 05:59:32,483 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 05:59:32,483 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 05:59:34,343 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 05:59:34,345 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 05:59:35,067 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 05:59:35,068 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6138
+2024-05-12 05:59:35,068 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.390 
+class 果荚            , IoU: 0.838 
+
+2024-05-12 05:59:35,068 - test_eval - INFO - eval point avg class IoU: 0.613836
+2024-05-12 05:59:35,069 - test_eval - INFO - eval whole scene point avg class acc: 0.694957
+2024-05-12 05:59:35,069 - test_eval - INFO - eval whole scene point accuracy: 0.853000
+2024-05-12 05:59:35,069 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 06:05:52,389 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 06:05:52,389 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 06:05:52,389 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 06:05:54,244 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 06:05:54,246 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 06:05:54,949 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 06:05:54,950 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6866
+2024-05-12 06:05:54,950 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.508 
+class 果荚            , IoU: 0.865 
+
+2024-05-12 06:05:54,950 - test_eval - INFO - eval point avg class IoU: 0.686581
+2024-05-12 06:05:54,950 - test_eval - INFO - eval whole scene point avg class acc: 0.754098
+2024-05-12 06:05:54,951 - test_eval - INFO - eval whole scene point accuracy: 0.881500
+2024-05-12 06:05:54,951 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 06:10:07,677 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 06:10:07,677 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 06:10:07,677 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 06:10:09,692 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 06:10:09,694 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 06:10:10,488 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 06:10:10,488 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.5613
+2024-05-12 06:10:10,488 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.304 
+class 果荚            , IoU: 0.819 
+
+2024-05-12 06:10:10,489 - test_eval - INFO - eval point avg class IoU: 0.561273
+2024-05-12 06:10:10,489 - test_eval - INFO - eval whole scene point avg class acc: 0.651795
+2024-05-12 06:10:10,489 - test_eval - INFO - eval whole scene point accuracy: 0.832200
+2024-05-12 06:10:10,490 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 06:10:23,296 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 06:10:23,296 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 06:10:23,296 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 06:10:25,148 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 06:10:25,150 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 06:10:25,923 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 06:10:25,924 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.5600
+2024-05-12 06:10:25,924 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.302 
+class 果荚            , IoU: 0.819 
+
+2024-05-12 06:10:25,924 - test_eval - INFO - eval point avg class IoU: 0.560015
+2024-05-12 06:10:25,924 - test_eval - INFO - eval whole scene point avg class acc: 0.650757
+2024-05-12 06:10:25,924 - test_eval - INFO - eval whole scene point accuracy: 0.831700
+2024-05-12 06:10:25,924 - test_eval - INFO - --------------------------------------
+
+
+2024-05-12 06:35:04,106 - test_eval - INFO - --- hyper-parameter ---
+2024-05-12 06:35:04,107 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-12 06:35:04,107 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-12 06:35:06,098 - test_eval - INFO - --- Evaluation whole scene
+2024-05-12 06:35:06,099 - test_eval - INFO - Inference [1/1] rapec - Cloud ...
+2024-05-12 06:35:06,819 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapec - Cloud.las
+2024-05-12 06:35:06,819 - test_eval - INFO - Mean IoU of rapec - Cloud: 0.6389
+2024-05-12 06:35:06,820 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.431 
+class 果荚            , IoU: 0.847 
+
+2024-05-12 06:35:06,820 - test_eval - INFO - eval point avg class IoU: 0.638880
+2024-05-12 06:35:06,820 - test_eval - INFO - eval whole scene point avg class acc: 0.715397
+2024-05-12 06:35:06,820 - test_eval - INFO - eval whole scene point accuracy: 0.862850
+2024-05-12 06:35:06,820 - test_eval - INFO - --------------------------------------
+
+
+2024-05-19 13:22:04,402 - test_eval - INFO - --- hyper-parameter ---
+2024-05-19 13:22:04,402 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-19 13:22:04,403 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-19 13:22:04,809 - test_eval - INFO - --- Evaluation whole scene
+2024-05-19 13:22:04,817 - test_eval - INFO - Inference [1/2] rape1 ...
+2024-05-19 13:22:38,174 - test_eval - INFO - --- hyper-parameter ---
+2024-05-19 13:22:38,174 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-19 13:22:38,174 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-19 13:22:38,364 - test_eval - INFO - --- Evaluation whole scene
+2024-05-19 13:22:38,367 - test_eval - INFO - Inference [1/2] rape1 ...
+2024-05-19 13:23:13,371 - test_eval - INFO - --- hyper-parameter ---
+2024-05-19 13:23:13,372 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-19 13:23:13,372 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-19 13:23:13,578 - test_eval - INFO - --- Evaluation whole scene
+2024-05-19 13:23:13,583 - test_eval - INFO - Inference [1/2] rapea - Cloud ...
+2024-05-19 13:23:14,560 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea - Cloud.las
+2024-05-19 13:23:14,560 - test_eval - INFO - Mean IoU of rapea - Cloud: 0.6303
+2024-05-19 13:23:14,561 - test_eval - INFO - Inference [2/2] rapeb - Cloud ...
+2024-05-19 13:23:15,267 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-19 13:23:15,267 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.5968
+2024-05-19 13:23:15,268 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.389 
+class 果荚            , IoU: 0.840 
+
+2024-05-19 13:23:15,268 - test_eval - INFO - eval point avg class IoU: 0.614616
+2024-05-19 13:23:15,269 - test_eval - INFO - eval whole scene point avg class acc: 0.695373
+2024-05-19 13:23:15,269 - test_eval - INFO - eval whole scene point accuracy: 0.854875
+2024-05-19 13:23:15,269 - test_eval - INFO - --------------------------------------
+
+
+2024-05-23 07:49:01,981 - test_eval - INFO - --- hyper-parameter ---
+2024-05-23 07:49:01,982 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-23 07:49:01,983 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-23 07:49:03,922 - test_eval - INFO - --- Evaluation whole scene
+2024-05-23 07:49:03,934 - test_eval - INFO - Inference [1/2] rapea - Cloud ...
+2024-05-23 07:49:04,960 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea - Cloud.las
+2024-05-23 07:49:04,961 - test_eval - INFO - Mean IoU of rapea - Cloud: 0.5734
+2024-05-23 07:49:04,961 - test_eval - INFO - Inference [2/2] rapeb - Cloud ...
+2024-05-23 07:49:05,607 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-23 07:49:05,608 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.5931
+2024-05-23 07:49:05,608 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.334 
+class 果荚            , IoU: 0.832 
+
+2024-05-23 07:49:05,608 - test_eval - INFO - eval point avg class IoU: 0.583040
+2024-05-23 07:49:05,609 - test_eval - INFO - eval whole scene point avg class acc: 0.667203
+2024-05-23 07:49:05,609 - test_eval - INFO - eval whole scene point accuracy: 0.844800
+2024-05-23 07:49:05,609 - test_eval - INFO - --------------------------------------
+
+
+2024-05-23 07:49:42,252 - test_eval - INFO - --- hyper-parameter ---
+2024-05-23 07:49:42,253 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-23 07:49:42,253 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-23 07:49:44,103 - test_eval - INFO - --- Evaluation whole scene
+2024-05-23 07:49:44,106 - test_eval - INFO - Inference [1/2] rapea - Cloud ...
+2024-05-23 07:49:44,895 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea - Cloud.las
+2024-05-23 07:49:44,896 - test_eval - INFO - Mean IoU of rapea - Cloud: 0.5745
+2024-05-23 07:49:44,896 - test_eval - INFO - Inference [2/2] rapeb - Cloud ...
+2024-05-23 07:49:45,372 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-23 07:49:45,373 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.5942
+2024-05-23 07:49:45,373 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.336 
+class 果荚            , IoU: 0.832 
+
+2024-05-23 07:49:45,373 - test_eval - INFO - eval point avg class IoU: 0.584143
+2024-05-23 07:49:45,374 - test_eval - INFO - eval whole scene point avg class acc: 0.668114
+2024-05-23 07:49:45,374 - test_eval - INFO - eval whole scene point accuracy: 0.845225
+2024-05-23 07:49:45,374 - test_eval - INFO - --------------------------------------
+
+
+2024-05-23 07:49:50,319 - test_eval - INFO - --- hyper-parameter ---
+2024-05-23 07:49:50,319 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-23 07:49:50,319 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-23 07:49:51,090 - test_eval - INFO - --- Evaluation whole scene
+2024-05-23 07:49:51,094 - test_eval - INFO - Inference [1/2] rapea - Cloud ...
+2024-05-23 07:49:51,938 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea - Cloud.las
+2024-05-23 07:49:51,939 - test_eval - INFO - Mean IoU of rapea - Cloud: 0.5729
+2024-05-23 07:49:51,939 - test_eval - INFO - Inference [2/2] rapeb - Cloud ...
+2024-05-23 07:49:52,394 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-23 07:49:52,396 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.5970
+2024-05-23 07:49:52,396 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.337 
+class 果荚            , IoU: 0.832 
+
+2024-05-23 07:49:52,396 - test_eval - INFO - eval point avg class IoU: 0.584662
+2024-05-23 07:49:52,397 - test_eval - INFO - eval whole scene point avg class acc: 0.668543
+2024-05-23 07:49:52,397 - test_eval - INFO - eval whole scene point accuracy: 0.845425
+2024-05-23 07:49:52,397 - test_eval - INFO - --------------------------------------
+
+
+2024-05-23 08:05:24,646 - test_eval - INFO - --- hyper-parameter ---
+2024-05-23 08:05:24,646 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-23 08:05:24,647 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-23 08:05:25,429 - test_eval - INFO - --- Evaluation whole scene
+2024-05-23 08:05:25,432 - test_eval - INFO - Inference [1/2] rapea - Cloud ...
+2024-05-23 08:05:26,137 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea - Cloud.las
+2024-05-23 08:05:26,138 - test_eval - INFO - Mean IoU of rapea - Cloud: 0.6020
+2024-05-23 08:05:26,138 - test_eval - INFO - Inference [2/2] rapeb - Cloud ...
+2024-05-23 08:05:26,614 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-23 08:05:26,615 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.6295
+2024-05-23 08:05:26,615 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.388 
+class 果荚            , IoU: 0.843 
+
+2024-05-23 08:05:26,615 - test_eval - INFO - eval point avg class IoU: 0.615321
+2024-05-23 08:05:26,615 - test_eval - INFO - eval whole scene point avg class acc: 0.693872
+2024-05-23 08:05:26,615 - test_eval - INFO - eval whole scene point accuracy: 0.857150
+2024-05-23 08:05:26,615 - test_eval - INFO - --------------------------------------
+
+
+2024-05-23 22:39:12,936 - test_eval - INFO - --- hyper-parameter ---
+2024-05-23 22:39:12,936 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-23 22:39:12,937 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-23 22:39:14,831 - test_eval - INFO - --- Evaluation whole scene
+2024-05-23 22:39:14,841 - test_eval - INFO - Inference [1/2] rapea - Cloud ...
+2024-05-23 22:39:15,637 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea - Cloud.las
+2024-05-23 22:39:15,638 - test_eval - INFO - Mean IoU of rapea - Cloud: 0.1235
+2024-05-23 22:39:15,638 - test_eval - INFO - Inference [2/2] rapeb - Cloud ...
+2024-05-23 22:39:16,140 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-23 22:39:16,140 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.1096
+2024-05-23 22:39:16,140 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.233 
+class 果荚            , IoU: 0.000 
+
+2024-05-23 22:39:16,141 - test_eval - INFO - eval point avg class IoU: 0.116587
+2024-05-23 22:39:16,141 - test_eval - INFO - eval whole scene point avg class acc: 0.500000
+2024-05-23 22:39:16,141 - test_eval - INFO - eval whole scene point accuracy: 0.233175
+2024-05-23 22:39:16,141 - test_eval - INFO - --------------------------------------
+
+
+2024-05-23 22:40:02,615 - test_eval - INFO - --- hyper-parameter ---
+2024-05-23 22:40:02,615 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-23 22:40:02,615 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-23 22:40:04,498 - test_eval - INFO - --- Evaluation whole scene
+2024-05-23 22:40:04,502 - test_eval - INFO - Inference [1/2] rapea - Cloud ...
+2024-05-23 22:40:05,317 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea - Cloud.las
+2024-05-23 22:40:05,318 - test_eval - INFO - Mean IoU of rapea - Cloud: 0.1235
+2024-05-23 22:40:05,319 - test_eval - INFO - Inference [2/2] rapeb - Cloud ...
+2024-05-23 22:40:05,884 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-23 22:40:05,885 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.1096
+2024-05-23 22:40:05,885 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.233 
+class 果荚            , IoU: 0.000 
+
+2024-05-23 22:40:05,885 - test_eval - INFO - eval point avg class IoU: 0.116587
+2024-05-23 22:40:05,885 - test_eval - INFO - eval whole scene point avg class acc: 0.500000
+2024-05-23 22:40:05,886 - test_eval - INFO - eval whole scene point accuracy: 0.233175
+2024-05-23 22:40:05,886 - test_eval - INFO - --------------------------------------
+
+
+2024-05-23 22:47:44,903 - test_eval - INFO - --- hyper-parameter ---
+2024-05-23 22:47:44,903 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-23 22:47:44,904 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-23 22:47:47,027 - test_eval - INFO - --- Evaluation whole scene
+2024-05-23 22:47:47,030 - test_eval - INFO - Inference [1/2] rapea - Cloud ...
+2024-05-23 22:47:47,800 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea - Cloud.las
+2024-05-23 22:47:47,801 - test_eval - INFO - Mean IoU of rapea - Cloud: 0.5457
+2024-05-23 22:47:47,801 - test_eval - INFO - Inference [2/2] rapeb - Cloud ...
+2024-05-23 22:47:48,306 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-23 22:47:48,306 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.5641
+2024-05-23 22:47:48,307 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.288 
+class 果荚            , IoU: 0.822 
+
+2024-05-23 22:47:48,307 - test_eval - INFO - eval point avg class IoU: 0.554744
+2024-05-23 22:47:48,307 - test_eval - INFO - eval whole scene point avg class acc: 0.643776
+2024-05-23 22:47:48,308 - test_eval - INFO - eval whole scene point accuracy: 0.833875
+2024-05-23 22:47:48,308 - test_eval - INFO - --------------------------------------
+
+
+2024-05-23 22:47:58,345 - test_eval - INFO - --- hyper-parameter ---
+2024-05-23 22:47:58,345 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-23 22:47:58,345 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-23 22:48:00,200 - test_eval - INFO - --- Evaluation whole scene
+2024-05-23 22:48:00,203 - test_eval - INFO - Inference [1/2] rapea - Cloud ...
+2024-05-23 22:48:01,010 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea - Cloud.las
+2024-05-23 22:48:01,011 - test_eval - INFO - Mean IoU of rapea - Cloud: 0.5445
+2024-05-23 22:48:01,011 - test_eval - INFO - Inference [2/2] rapeb - Cloud ...
+2024-05-23 22:48:01,480 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-23 22:48:01,481 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.5651
+2024-05-23 22:48:01,481 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.287 
+class 果荚            , IoU: 0.822 
+
+2024-05-23 22:48:01,481 - test_eval - INFO - eval point avg class IoU: 0.554550
+2024-05-23 22:48:01,482 - test_eval - INFO - eval whole scene point avg class acc: 0.643615
+2024-05-23 22:48:01,482 - test_eval - INFO - eval whole scene point accuracy: 0.833800
+2024-05-23 22:48:01,482 - test_eval - INFO - --------------------------------------
+
+
+2024-05-23 22:59:22,743 - test_eval - INFO - --- hyper-parameter ---
+2024-05-23 22:59:22,743 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-23 22:59:22,743 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-23 22:59:24,764 - test_eval - INFO - --- Evaluation whole scene
+2024-05-23 22:59:24,768 - test_eval - INFO - Inference [1/2] rapea - Cloud ...
+2024-05-23 22:59:25,448 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea - Cloud.las
+2024-05-23 22:59:25,449 - test_eval - INFO - Mean IoU of rapea - Cloud: 0.6359
+2024-05-23 22:59:25,449 - test_eval - INFO - Inference [2/2] rapeb - Cloud ...
+2024-05-23 22:59:25,926 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb - Cloud.las
+2024-05-23 22:59:25,927 - test_eval - INFO - Mean IoU of rapeb - Cloud: 0.5970
+2024-05-23 22:59:25,927 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.393 
+class 果荚            , IoU: 0.843 
+
+2024-05-23 22:59:25,927 - test_eval - INFO - eval point avg class IoU: 0.617847
+2024-05-23 22:59:25,927 - test_eval - INFO - eval whole scene point avg class acc: 0.696763
+2024-05-23 22:59:25,927 - test_eval - INFO - eval whole scene point accuracy: 0.857350
+2024-05-23 22:59:25,927 - test_eval - INFO - --------------------------------------
+
+
+2024-05-23 23:21:13,399 - test_eval - INFO - --- hyper-parameter ---
+2024-05-23 23:21:13,399 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-23 23:21:13,399 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-23 23:21:14,378 - test_eval - INFO - --- Evaluation whole scene
+2024-05-23 23:22:39,222 - test_eval - INFO - --- hyper-parameter ---
+2024-05-23 23:22:39,222 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-23 23:22:39,222 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-23 23:22:41,098 - test_eval - INFO - --- Evaluation whole scene
+2024-05-23 23:22:41,144 - test_eval - INFO - Inference [1/2] rape1label ...
+2024-05-23 23:22:48,313 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rape1label.las
+2024-05-23 23:22:48,316 - test_eval - INFO - Mean IoU of rape1label: 0.6649
+2024-05-23 23:22:48,317 - test_eval - INFO - Inference [2/2] rape2label ...
+2024-05-23 23:22:54,322 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rape2label.las
+2024-05-23 23:22:54,324 - test_eval - INFO - Mean IoU of rape2label: 0.6054
+2024-05-23 23:22:54,325 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.430 
+class 果荚            , IoU: 0.847 
+
+2024-05-23 23:22:54,325 - test_eval - INFO - eval point avg class IoU: 0.638609
+2024-05-23 23:22:54,325 - test_eval - INFO - eval whole scene point avg class acc: 0.716712
+2024-05-23 23:22:54,325 - test_eval - INFO - eval whole scene point accuracy: 0.862711
+2024-05-23 23:22:54,325 - test_eval - INFO - --------------------------------------
+
+
+2024-05-24 01:03:29,277 - test_eval - INFO - --- hyper-parameter ---
+2024-05-24 01:03:29,277 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-24 01:03:29,278 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-24 01:03:31,311 - test_eval - INFO - --- Evaluation whole scene
+2024-05-24 01:03:31,315 - test_eval - INFO - Inference [1/2] rapea ...
+2024-05-24 01:03:32,037 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-24 01:03:32,038 - test_eval - INFO - Mean IoU of rapea: 0.7154
+2024-05-24 01:03:32,038 - test_eval - INFO - Inference [2/2] rapeb ...
+2024-05-24 01:03:32,533 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapeb.las
+2024-05-24 01:03:32,534 - test_eval - INFO - Mean IoU of rapeb: 0.6259
+2024-05-24 01:03:32,534 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.515 
+class 果荚            , IoU: 0.832 
+
+2024-05-24 01:03:32,534 - test_eval - INFO - eval point avg class IoU: 0.673571
+2024-05-24 01:03:32,534 - test_eval - INFO - eval whole scene point avg class acc: 0.785271
+2024-05-24 01:03:32,534 - test_eval - INFO - eval whole scene point accuracy: 0.857375
+2024-05-24 01:03:32,534 - test_eval - INFO - --------------------------------------
+
+
+2024-05-24 01:12:53,657 - test_eval - INFO - --- hyper-parameter ---
+2024-05-24 01:12:53,657 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-24 01:12:53,657 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-24 01:12:55,524 - test_eval - INFO - --- Evaluation whole scene
+2024-05-24 01:12:55,551 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-24 01:13:03,105 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-24 01:13:03,108 - test_eval - INFO - Mean IoU of rapea: 0.7121
+2024-05-24 01:13:03,108 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.585 
+class 果荚            , IoU: 0.839 
+
+2024-05-24 01:13:03,108 - test_eval - INFO - eval point avg class IoU: 0.712149
+2024-05-24 01:13:03,108 - test_eval - INFO - eval whole scene point avg class acc: 0.828327
+2024-05-24 01:13:03,109 - test_eval - INFO - eval whole scene point accuracy: 0.868704
+2024-05-24 01:13:03,109 - test_eval - INFO - --------------------------------------
+
+
+2024-05-24 19:43:47,098 - test_eval - INFO - --- hyper-parameter ---
+2024-05-24 19:43:47,099 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-24 19:43:47,099 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-24 19:43:49,182 - test_eval - INFO - --- Evaluation whole scene
+2024-05-24 19:43:49,254 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-24 19:43:57,268 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-24 19:43:57,272 - test_eval - INFO - Mean IoU of rapea: 0.6830
+2024-05-24 19:43:57,273 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.527 
+class 果荚            , IoU: 0.839 
+
+2024-05-24 19:43:57,273 - test_eval - INFO - eval point avg class IoU: 0.682956
+2024-05-24 19:43:57,274 - test_eval - INFO - eval whole scene point avg class acc: 0.779544
+2024-05-24 19:43:57,275 - test_eval - INFO - eval whole scene point accuracy: 0.863542
+2024-05-24 19:43:57,275 - test_eval - INFO - --------------------------------------
+
+
+2024-05-25 17:06:41,139 - test_eval - INFO - --- hyper-parameter ---
+2024-05-25 17:06:41,140 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-25 17:06:41,140 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-25 17:06:43,163 - test_eval - INFO - --- Evaluation whole scene
+2024-05-25 17:06:43,232 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-25 17:06:50,504 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-25 17:06:50,508 - test_eval - INFO - Mean IoU of rapea: 0.6914
+2024-05-25 17:06:50,508 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.523 
+class 果荚            , IoU: 0.859 
+
+2024-05-25 17:06:50,510 - test_eval - INFO - eval point avg class IoU: 0.691377
+2024-05-25 17:06:50,511 - test_eval - INFO - eval whole scene point avg class acc: 0.764629
+2024-05-25 17:06:50,511 - test_eval - INFO - eval whole scene point accuracy: 0.878232
+2024-05-25 17:06:50,512 - test_eval - INFO - --------------------------------------
+
+
+2024-05-25 17:14:30,091 - test_eval - INFO - --- hyper-parameter ---
+2024-05-25 17:14:30,092 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=4096, num_votes=1, pnModel=True)
+2024-05-25 17:14:30,092 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-25 17:14:30,878 - test_eval - INFO - --- Evaluation whole scene
+2024-05-25 17:14:30,904 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-25 17:14:34,034 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-25 17:14:34,037 - test_eval - INFO - Mean IoU of rapea: 0.6251
+2024-05-25 17:14:34,037 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.446 
+class 果荚            , IoU: 0.804 
+
+2024-05-25 17:14:34,038 - test_eval - INFO - eval point avg class IoU: 0.625071
+2024-05-25 17:14:34,038 - test_eval - INFO - eval whole scene point avg class acc: 0.736173
+2024-05-25 17:14:34,038 - test_eval - INFO - eval whole scene point accuracy: 0.831043
+2024-05-25 17:14:34,039 - test_eval - INFO - --------------------------------------
+
+
+2024-05-25 17:14:42,298 - test_eval - INFO - --- hyper-parameter ---
+2024-05-25 17:14:42,298 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=4096, num_votes=1, pnModel=True)
+2024-05-25 17:14:42,298 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-25 17:14:44,146 - test_eval - INFO - --- Evaluation whole scene
+2024-05-25 17:14:44,171 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-25 17:14:47,372 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-25 17:14:47,376 - test_eval - INFO - Mean IoU of rapea: 0.6248
+2024-05-25 17:14:47,376 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.445 
+class 果荚            , IoU: 0.805 
+
+2024-05-25 17:14:47,376 - test_eval - INFO - eval point avg class IoU: 0.624847
+2024-05-25 17:14:47,376 - test_eval - INFO - eval whole scene point avg class acc: 0.735760
+2024-05-25 17:14:47,377 - test_eval - INFO - eval whole scene point accuracy: 0.831064
+2024-05-25 17:14:47,377 - test_eval - INFO - --------------------------------------
+
+
+2024-05-25 17:15:02,431 - test_eval - INFO - --- hyper-parameter ---
+2024-05-25 17:15:02,432 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-25 17:15:02,432 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-25 17:15:04,321 - test_eval - INFO - --- Evaluation whole scene
+2024-05-25 17:15:04,349 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-25 17:15:13,228 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-25 17:15:13,234 - test_eval - INFO - Mean IoU of rapea: 0.6227
+2024-05-25 17:15:13,234 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.439 
+class 果荚            , IoU: 0.806 
+
+2024-05-25 17:15:13,235 - test_eval - INFO - eval point avg class IoU: 0.622652
+2024-05-25 17:15:13,235 - test_eval - INFO - eval whole scene point avg class acc: 0.731278
+2024-05-25 17:15:13,235 - test_eval - INFO - eval whole scene point accuracy: 0.831600
+2024-05-25 17:15:13,236 - test_eval - INFO - --------------------------------------
+
+
+2024-05-25 17:22:19,676 - test_eval - INFO - --- hyper-parameter ---
+2024-05-25 17:22:19,677 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-25 17:22:19,677 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-25 17:22:21,787 - test_eval - INFO - --- Evaluation whole scene
+2024-05-25 17:22:21,813 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-25 17:22:30,061 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-25 17:22:30,065 - test_eval - INFO - Mean IoU of rapea: 0.6741
+2024-05-25 17:22:30,065 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.506 
+class 果荚            , IoU: 0.842 
+
+2024-05-25 17:22:30,066 - test_eval - INFO - eval point avg class IoU: 0.674062
+2024-05-25 17:22:30,066 - test_eval - INFO - eval whole scene point avg class acc: 0.762355
+2024-05-25 17:22:30,066 - test_eval - INFO - eval whole scene point accuracy: 0.864290
+2024-05-25 17:22:30,066 - test_eval - INFO - --------------------------------------
+
+
+2024-05-25 17:28:02,349 - test_eval - INFO - --- hyper-parameter ---
+2024-05-25 17:28:02,349 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-25 17:28:02,349 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-25 17:28:03,154 - test_eval - INFO - --- Evaluation whole scene
+2024-05-25 17:28:03,182 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-25 17:28:10,973 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-25 17:28:10,976 - test_eval - INFO - Mean IoU of rapea: 0.6894
+2024-05-25 17:28:10,976 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.521 
+class 果荚            , IoU: 0.857 
+
+2024-05-25 17:28:10,976 - test_eval - INFO - eval point avg class IoU: 0.689445
+2024-05-25 17:28:10,977 - test_eval - INFO - eval whole scene point avg class acc: 0.764591
+2024-05-25 17:28:10,977 - test_eval - INFO - eval whole scene point accuracy: 0.876612
+2024-05-25 17:28:10,977 - test_eval - INFO - --------------------------------------
+
+
+2024-05-25 17:36:30,460 - test_eval - INFO - --- hyper-parameter ---
+2024-05-25 17:36:30,461 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-25 17:36:30,461 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-25 17:36:31,449 - test_eval - INFO - --- Evaluation whole scene
+2024-05-25 17:36:31,476 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-25 17:36:38,813 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-25 17:36:38,817 - test_eval - INFO - Mean IoU of rapea: 0.6912
+2024-05-25 17:36:38,817 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.526 
+class 果荚            , IoU: 0.857 
+
+2024-05-25 17:36:38,817 - test_eval - INFO - eval point avg class IoU: 0.691176
+2024-05-25 17:36:38,817 - test_eval - INFO - eval whole scene point avg class acc: 0.767819
+2024-05-25 17:36:38,818 - test_eval - INFO - eval whole scene point accuracy: 0.876387
+2024-05-25 17:36:38,818 - test_eval - INFO - --------------------------------------
+
+
+2024-05-25 17:42:08,080 - test_eval - INFO - --- hyper-parameter ---
+2024-05-25 17:42:08,080 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-25 17:42:08,080 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-25 17:42:09,932 - test_eval - INFO - --- Evaluation whole scene
+2024-05-25 17:42:09,958 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-25 17:42:17,249 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-25 17:42:17,253 - test_eval - INFO - Mean IoU of rapea: 0.6682
+2024-05-25 17:42:17,253 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.483 
+class 果荚            , IoU: 0.853 
+
+2024-05-25 17:42:17,253 - test_eval - INFO - eval point avg class IoU: 0.668159
+2024-05-25 17:42:17,254 - test_eval - INFO - eval whole scene point avg class acc: 0.742223
+2024-05-25 17:42:17,254 - test_eval - INFO - eval whole scene point accuracy: 0.870863
+2024-05-25 17:42:17,254 - test_eval - INFO - --------------------------------------
+
+
+2024-05-25 17:42:48,162 - test_eval - INFO - --- hyper-parameter ---
+2024-05-25 17:42:48,162 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-25 17:42:48,162 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-25 17:42:50,049 - test_eval - INFO - --- Evaluation whole scene
+2024-05-25 17:42:50,078 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-25 17:42:58,835 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-25 17:42:58,841 - test_eval - INFO - Mean IoU of rapea: 0.6677
+2024-05-25 17:42:58,841 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.482 
+class 果荚            , IoU: 0.853 
+
+2024-05-25 17:42:58,841 - test_eval - INFO - eval point avg class IoU: 0.667685
+2024-05-25 17:42:58,841 - test_eval - INFO - eval whole scene point avg class acc: 0.741869
+2024-05-25 17:42:58,842 - test_eval - INFO - eval whole scene point accuracy: 0.870652
+2024-05-25 17:42:58,842 - test_eval - INFO - --------------------------------------
+
+
+2024-05-25 17:46:28,060 - test_eval - INFO - --- hyper-parameter ---
+2024-05-25 17:46:28,060 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-25 17:46:28,060 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-25 17:46:28,866 - test_eval - INFO - --- Evaluation whole scene
+2024-05-25 17:46:28,895 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-25 17:46:37,893 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-25 17:46:37,897 - test_eval - INFO - Mean IoU of rapea: 0.6607
+2024-05-25 17:46:37,897 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.503 
+class 果荚            , IoU: 0.819 
+
+2024-05-25 17:46:37,897 - test_eval - INFO - eval point avg class IoU: 0.660667
+2024-05-25 17:46:37,897 - test_eval - INFO - eval whole scene point avg class acc: 0.772501
+2024-05-25 17:46:37,897 - test_eval - INFO - eval whole scene point accuracy: 0.846703
+2024-05-25 17:46:37,897 - test_eval - INFO - --------------------------------------
+
+
+2024-05-26 19:54:01,170 - test_eval - INFO - --- hyper-parameter ---
+2024-05-26 19:54:01,171 - test_eval - INFO - Namespace(GPU='0', batch_size=32, block_size=1.0, num_point=1024, num_votes=1, pnModel=True)
+2024-05-26 19:54:01,171 - test_eval - INFO - ---------- Loading sematic segmentation model ----------
+2024-05-26 19:54:03,078 - test_eval - INFO - --- Evaluation whole scene
+2024-05-26 19:54:03,151 - test_eval - INFO - Inference [1/1] rapea ...
+2024-05-26 19:54:13,053 - test_eval - INFO - save:D:\xjPointNet2\testResultPN2\rapea.las
+2024-05-26 19:54:13,059 - test_eval - INFO - Mean IoU of rapea: 0.6505
+2024-05-26 19:54:13,059 - test_eval - INFO - ----- IoU -----
+class 非果荚           , IoU: 0.470 
+class 果荚            , IoU: 0.831 
+
+2024-05-26 19:54:13,060 - test_eval - INFO - eval point avg class IoU: 0.650463
+2024-05-26 19:54:13,060 - test_eval - INFO - eval whole scene point avg class acc: 0.743394
+2024-05-26 19:54:13,060 - test_eval - INFO - eval whole scene point accuracy: 0.852963
+2024-05-26 19:54:13,060 - test_eval - INFO - --------------------------------------
+
+
